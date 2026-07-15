@@ -1,0 +1,16 @@
+print("Hello this is an 'Instant Discount System'")
+total = float(input("Please enter the total "))
+if total < 100 :
+    discount_value = total * 0
+    print(discount_value)
+    print(f"Total is{total} and total after discount is {total}")
+elif (total >= 100 and total < 500 ):
+    discount_value = total * 0.10
+    print(discount_value)
+    ntotal = total - discount_value
+    print(f"Total is{total} and total after discount is {ntotal}")
+elif (total>= 500 ):
+    discount_value = total * 0.20
+    ntotal = total - discount_value 
+    print(discount_value)
+    print(f"Total is{total} and total after discount is {ntotal}")
